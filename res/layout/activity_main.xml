@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.otherapp.MainActivity" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="starBoundServiceInAnotherApp"
+        android:text="START BOUND SERVICE IN SERVICES APP_USING BIND" />
+     <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="stopBoundServiceInAnotherAppUsingUnBindSerice"
+        android:text="STOP BOUND SERVICE IN SERVICES APP_USING UNBIND SERVICE" />
+
+</LinearLayout>
